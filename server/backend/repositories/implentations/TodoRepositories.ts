@@ -18,11 +18,11 @@ export class TodoRepositories implements ITodoRepositories{
         this.todoList.push(todo);
         this.count++;
     }
-    async update(){
+    async update(id:string){
 
     }
     async delete(id:string){
-
+        this.todoList=this.todoList.filter((item)=>item.id===id);       
     }
     async get(){
         return this.todoList;
