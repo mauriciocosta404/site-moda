@@ -5,7 +5,7 @@
 <template>
     <Header/>
     <Banner/>
-    <h1>Hello world</h1>
+    <Featured/>
 </template>
 
 <style>
