@@ -7,8 +7,7 @@
                 :key="tab"
                 class="tab"
                 @click="activeIndex=i"
-                :class="{active: activeIndex===i}"
-            >
+                :class="{active: activeIndex===i}">
                 {{ tab }}
             </div>
         </div>
